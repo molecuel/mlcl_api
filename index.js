@@ -16,6 +16,7 @@ var api = function () {
   // emit molecuel elements pre init event
   molecuel.emit('mlcl::api::init:pre', self);
 
+  // place more init stuff here
 
   molecuel.emit('mlcl::api::init:post', self);
   return this;
